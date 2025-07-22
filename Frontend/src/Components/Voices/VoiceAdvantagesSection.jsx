@@ -90,8 +90,7 @@ const VoiceAdvantagesSection = () => {
                     You are in good hands with us
                 </h2>
                 <p className="max-w-3xl text-sm sm:text-base">
-                    Since 2001, we have provided wholesale A-Z voice termination and routing to hundreds of MNOs, MVNOs, CPAAS & PBX providers,
-                    call centers and other companies. Join other businesses profiting from our wide coverage, competitive rates, and premium quality of service.
+                    Since 2020, we have offered whole voice termination end to end and routing for hundreds of MNO's, MVNO's. PBX providers and other businesses. Join our comprehensive partner network and profit from competitive wholesale termination rates, reliable coverage and industry leading quality of service.
                 </p>
 
                 <div className="flex flex-wrap justify-center items-center gap-6 sm:gap-10 lg:gap-16 w-full mt-10">

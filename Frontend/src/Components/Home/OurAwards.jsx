@@ -68,7 +68,7 @@ const OurAwards = () => {
     return (
         <>
             {/* Our Awards */}
-            <div className="flex flex-col justify-center items-center text-center w-[90%] max-w-7xl mx-auto pt-20 px-4">
+            {/* <div className="flex flex-col justify-center items-center text-center w-[90%] max-w-7xl mx-auto pt-20 px-4">
                 <h1 className="uppercase text-primary text-3xl sm:text-4xl font-semibold">
                     Our awards
                 </h1>
@@ -91,32 +91,32 @@ const OurAwards = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
             {/* Upcoming Events */}
-            <div className='bg-accent'>
+            {/* <div className='bg-accent'>
                 <h1 className='md:text-4xl text-2xl font-semibold tracking-tight text-primary text-center py-10 uppercase'>Upcoming events</h1>
                 <div className="w-[90%] max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-white py-10">
                     {UpcomingItems.map((item, index) => (
                         <div key={index} className="relative group overflow-hidden rounded-lg shadow-lg">
-                            {/* Background Image */}
-                            <img src={item.Image} alt="event" className="w-full h-[450px] object-cover" />
+                            
+                            <img src={item.Image} alt="event" className="w-full h-[450px] object-cover" /> 
 
-                            {/* Overlay Content */}
+                           
                             <div className="absolute inset-0 bg-[#4a4a87]/80 flex flex-col justify-between p-6">
 
-                                {/* Top Date */}
+                              
                                 <div className="w-fit ml-auto bg-black/70 px-4 py-2 text-sm font-medium">
                                     {item.date}
                                 </div>
 
-                                {/* Middle Content */}
+                               
                                 <div className="mt-20">
                                     <h1 className="text-3xl font-bold uppercase">{item.heading}</h1>
                                     <p className="text-sm mt-1">{item.location}</p>
                                 </div>
 
-                                {/* Bottom Right */}
+                                
                                 <div className="w-fit mt-auto">
                                     <NavLink to={"/contact"}><button className='uppercase bg-primary hover:bg-secondary py-3 px-6 rounded tracking-tighter font-medium cursor-pointer hover:scale-95 duration-300 transition-all'>
                                         Schedule a meeting
@@ -126,7 +126,7 @@ const OurAwards = () => {
                         </div>
                     ))}
                 </div>
-            </div>
+            </div> */}
 
             {/* Our Partners Section */}
             <section className="w-full py-20 bg-gray-50">

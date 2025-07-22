@@ -8,21 +8,21 @@ const HomeAdvantages = () => {
     {
       logo: <MdOutlineRecordVoiceOver />,
       heading: "Premium Voice Termination Quality",
-      para: "Rely on our proprietary algorithms to maximize routing quality",
+      para: "Maximize routing quality and efficiency through our algorithms",
     },
     {
       logo: <LuMessageSquareShare />,
-      heading: "Reliable & Fast SMS Termination",
-      para: "Reach a new level of growth with our widest coverage worldwide",
+      heading: "Reliable SMS Termination",
+      para: "Global network coverage with high reliability",
     },
     {
       logo: <MdOutlineSecurity />,
-      heading: "Cutting-Edge Anti-Fraud System",
-      para: "Stay one step ahead of telecom fraud",
+      heading: "Secure System",
+      para: " Latest in Anti Fraud Technology",
     },
   ];
   const MembersImage = [
-    { Image: "../../../Images/Home/Member1.png" },
+    
     { Image: "../../../Images/Home/gsma-logo.svg" },
     { Image: "../../../Images/Home/Member3.png" },
     { Image: "../../../Images/Home/Member4.png" },
@@ -30,15 +30,15 @@ const HomeAdvantages = () => {
   ];
   const CountItems = [
     {
-      Count: "1,500",
+      Count: "500+",
       Heading: "Partners worldwide",
     },
     {
-      Count: "190+",
+      Count: "100+",
       Heading: "Countries covered",
     },
     {
-      Count: "165+",
+      Count: "85+",
       Heading: "Countries with direct connections",
     },
   ];
@@ -105,9 +105,7 @@ const HomeAdvantages = () => {
           Members of
         </h1>
         <p className="md:w-[70%] mx-auto text-center md:text-base text-sm">
-          We are proud to be part of the largest communities in our industry. We
-          get valuable insights, obtain expertise and learn from experience of
-          other members, adopting best practices to improve our services.
+          We are long standing members of the telecommunications community, gaining expertise and valuable insight from the experience and competition of other members. We use this to continuously improve our services.
         </p>
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 lg:gap-16 px-4 my-10">
           {MembersImage?.map((item, index) => (
@@ -129,7 +127,7 @@ const HomeAdvantages = () => {
         <div className="flex flex-col gap-6 justify-center items-center text-white w-[90%] max-w-6xl mx-auto px-4">
           {/* Main Heading */}
           <h1 className="uppercase text-2xl sm:text-3xl font-semibold text-center tracking-tight">
-            We deliver 4+ billion minutes annually to 190+ countries.
+            We deliver 2+ billion minutes annually to 100+ countries.
           </h1>
 
           {/* Subheading */}

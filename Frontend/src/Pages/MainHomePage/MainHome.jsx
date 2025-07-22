@@ -6,7 +6,9 @@ import OurAwards from '../../Components/Home/OurAwards'
 const MainHome = () => {
     return (
         <>
-        <div className=' '><HomeBanner /><HomeAdvantages /> <OurAwards /></div>
+        <div className=' '><HomeBanner /><HomeAdvantages /> 
+        <OurAwards />
+        </div>
         </>
     )
 }

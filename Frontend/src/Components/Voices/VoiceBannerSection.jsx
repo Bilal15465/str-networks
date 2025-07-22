@@ -7,15 +7,15 @@ import { BsBuildingsFill } from "react-icons/bs";
 const VoiceBannerSection = () => {
   const CountItems = [
     {
-      Count: "850",
+      Count: "380",
       Heading: "Partners"
     },
     {
-      Count: "160",
+      Count: "100+",
       Heading: "Direct connections"
     },
     {
-      Count: "4B+",
+      Count: "3B+",
       Heading: "Minutes annually"
     },
   ]
@@ -44,24 +44,24 @@ const VoiceBannerSection = () => {
 
   const advantagesItems = [
     {
-      heading: "GLOBAL COVERAGE",
-      para: "Wholesale voice termination to 190+ countries with DTMF & fax support + 19 points of presence all over the world."
+      heading: "GLOBAL REACH",
+      para: "High-quality wholesale voice termination to over 100 countries, with full support for DTMF and fax. Backed by 19 global points of presence for optimal connectivity."
     },
     {
-      heading: "FLEXIBLE PRICING",
-      para: "Competitive rates and accurate billing with pre-paid and post-paid options."
+      heading: "FLEXIBLE BILLING",
+      para: "Transparent, competitive pricing with both prepaid and postpaid plans to suit your business needs."
     },
     {
-      heading: "UNCOMPROMISED QUALITY",
-      para: "Premium CLI guaranteed routes, daily testings and an in-house state-of-the-art quality control system."
+      heading: "RELIABLE QUALITY",
+      para: "Guaranteed premium CLI routes, daily performance testing, and an advanced in-house quality assurance system ensure consistent service excellence."
     },
     {
-      heading: "CUSTOMER SERVICE",
-      para: "Dedicated account manager, 24/7 support and free tests before you pay."
+      heading: "DEDICATED SUPPORT",
+      para: "Access 24/7 technical assistance, a personal account manager, and complimentary trial services before committing."
     },
     {
-      heading: "VALUE ADDED SERVICES",
-      para: "Fraud alerting & protection, DID service and toll-free numbers."
+      heading: "ENHANCED SERVICES",
+      para: "Benefit from fraud detection and prevention, DID provisioning, and toll-free number solutions."
     },
   ];
   return (
@@ -85,10 +85,8 @@ const VoiceBannerSection = () => {
         Top Wholesale Voice Termination Provider – STR Networks
       </h1>
       <h2 className="text-base sm:text-lg md:text-xl font-light">
-        Since 2001, we have provided wholesale A‑Z voice termination and routing to hundreds of
-        MNOs, MVNOs, CPaaS & PBX providers, call centers and other companies. Join other businesses
-        profiting from our wide coverage, competitive wholesale call termination rates & premium
-        quality of service — become a trusted STR Networks partner.
+        Since 2020, we have offered whole voice termination end to end and routing for hundreds of
+        MNO's, MVNO's. PBX providers and other businesses. Join our comprehensive partner network and profit from competitve wholesale termination rates, reliable coverage and industry leadig quality of service.
       </h2>
       <NavLink to={"/contact"}>
         <button className="uppercase bg-primary hover:bg-secondary text-white px-6 py-3 rounded-md font-medium hover:scale-95 transition duration-300 w-fit">
@@ -133,12 +131,10 @@ const VoiceBannerSection = () => {
     </h2>
 
     <p className="text-white text-sm sm:text-base leading-relaxed max-w-4xl">
-      With 20+ years in the telecom market, 11+ million international voice minutes terminated daily,
-      premium 100% CLI certified routes, and competitive rates, we provide you with a global wholesale
-      voice termination network for you to grow your business.
+      With multiple years in the telecom industry, 6 million voice minutes terminated daily, 100% CLI premium certified routes with competitive rates, we provide the full global wholesale service for you business.
     </p>
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 w-full mt-6">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full mt-6">
       {advantagesItems?.map((item, index) => (
         <div
           key={index}
